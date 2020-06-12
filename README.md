@@ -1,4 +1,4 @@
-# Jacoco Maven Multi Module Configuration
+# Jacoco Maven Multi Module Configuration Example
 
 This project contains a minimal configuration for JaCoCo report aggregator with Java.
 
@@ -34,5 +34,5 @@ mvn --batch-mode verify sonar:sonar -Drevision=local-test
 
 ## Future Updates
 
-// Submodules of submodules aggregator
-// Packing all this configuration in a maven plugin to avoid all this work/config stuffs in future projects.
+1. Submodules of submodules aggregator
+2. Packing all this configuration in a maven plugin to avoid all this work/config stuffs in future projects.
