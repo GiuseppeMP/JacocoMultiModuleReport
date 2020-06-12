@@ -1,6 +1,6 @@
-#Jacoco Maven Multi Module Configuration
+# Jacoco Maven Multi Module Configuration
 
-This project contains a minimal configuration for JaCoCo report aggregator em Java.
+This project contains a minimal configuration for JaCoCo report aggregator with Java.
 
 - report-aggregate
     - module-1
@@ -11,7 +11,11 @@ This project contains a minimal configuration for JaCoCo report aggregator em Ja
 
 ## Install
 
-``` mvn clean install -U #reports will be generate at jacoco-report-aggregator/target/site folder```
+```
+# build
+mvn clean install -U
+# reports will be generate at jacoco-report-aggregator/target/site folder
+```
 
 ## Working with Sonar
 
